@@ -1,0 +1,86 @@
+body {
+	margin: 0px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	color: #333333;
+	background-color: #FFFFFF;
+}
+
+h1,p {
+	text-align: center;
+}
+
+h1 {
+	font-size: 30px;
+	font-style: italic;
+	line-height: 20px;
+}
+
+thead {
+	font-weight: bold;
+}
+
+th,td {
+	padding: 3px 0 3px 10px;
+}
+
+tr.odd {
+	background-color: #DDFFDD;
+}
+
+tr.even {
+	background-color: #D5FFD5;
+}
+
+fieldset {
+	margin-top: 20px;
+	padding: 10px;
+}
+
+fieldset legend {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+fieldset label {
+	min-width: 400px;
+}
+
+fieldset input {
+	margin: 2px 10px 6px 10px;
+}
+
+.dataTables_wrapper .ui-toolbar {
+	padding: 4px;
+}
+
+.ui-buttonset {
+	text-align: center;
+}
+
+.ui-widget-header {
+	border: 1px solid #CCCCCC;
+}
+
+#mainContainer {
+	width: 700px;
+	margin: 0px auto;
+	background-color: #DFDFDF;
+	padding: 40px;
+	border-radius: 20px 20px 20px 20px;
+	border: 1px solid #999999;
+}
+
+#datatableContainer {
+	width: 700px;
+}
+
+#searchcity {
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+#submitNewCity {
+	display: block;
+	margin: 0px auto;
+}
